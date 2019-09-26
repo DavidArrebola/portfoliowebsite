@@ -1,0 +1,191 @@
+.full-width{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width{
+  width: 600px;
+  float: left;
+}
+
+.third-width{
+  width: 400px;
+  float: left;
+}
+
+/** Header *****/
+
+nav{
+  float: left;
+  padding: 10px 25px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: inherit;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #087e8b;
+    padding-left: 80px;
+  /**  -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black; **/
+}
+
+header h1{
+  width:auto;
+  clear:both;
+  color: #bcbf32;
+  padding: 350px 350px 0px 600px;
+  font-size: 60px;
+}
+
+header h3 {
+  width: auto;
+  clear: both;
+  color: #087e8b;
+  padding: 5px 350px 0px 600px;
+  font-size: 48px;
+}
+
+main {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  height: 60px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+h3{
+  height: 48px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  height: 36px;
+}
+
+h5 {
+  font-family: 'Roboto', sans-serif;
+  height: 24px;
+  font-weight: bold;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  height: 24px;
+}
+
+header{
+  height: 800px;
+  background: url("../img/hero-image.png");
+  background-size: cover;
+}
+
+/*** ABOUT ****/
+
+#about {
+  clear: both;
+  background-color: #087e8b;
+  height: 650px;
+  padding-top: 10px ;
+  color: white;
+  /** background-image: linear-gradient(to bottom, #087e8b, #0bafc1); **/
+}
+
+#about h4 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#about h5{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#about p{
+    font-size: 24px;
+}
+
+#about img#profile-img {
+  margin-left: 25px;
+  border: 12px solid #ffffff;
+}
+
+/** PORTFOLIO **/
+
+#portfolio {
+  clear: both;
+  height: 800px;
+}
+
+#portfolio h4 {
+  text-align: center;
+  font-size: 36px;
+  color: #087e8b;
+}
+
+#portfolio h5 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #087e8b;
+}
+
+#portfolio p{
+  font-size: 24px;
+  color: #087e8b;
+}
+
+.porttextdiv {
+  height: 300px;
+}
+
+/** FOOTER / Contact **/
+
+#contact {
+  clear:both;
+  color: white;
+  background-color: #095156;
+  height: 450px;
+/**  background-image: linear-gradient(to bottom, #1198a2, #095156); **/
+  padding-top: 10px;
+
+}
+
+#contact h4 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  padding-top: 20px;
+}
+
+#contact h5{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#contact p{
+  font-size: 24px;
+  text-align: center;
+}
+
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+    font-size: 32px;
+    padding-right: 48px;
+    padding-left: 15px;
+}
